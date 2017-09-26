@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/direction_left_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "장암행"
+            android:textSize="15dp"
+            android:textColor="#aaaaaa"
+            android:layout_gravity="right"/>
+
+        <TextView
+            android:id="@+id/remaintime_left_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "3분후 도착 예정"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/arrivetime_left_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "[11:06:00 도착 / 30초 정차]"
+            android:textSize="13dp"
+            android:textColor="#aaaaaa"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/direction_right_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "장암행"
+            android:textSize="15dp"
+            android:textColor="#aaaaaa"
+            android:layout_gravity="right"/>
+
+        <TextView
+            android:id="@+id/remaintime_right_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "3분후 도착 예정"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/arrivetime_right_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "[11:06:00 도착 / 30초 정차]"
+            android:textSize="13dp"
+            android:textColor="#aaaaaa"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+</LinearLayout>
